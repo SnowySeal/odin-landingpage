@@ -23,6 +23,7 @@ button {
     padding: 7px;
     width: 100px;
     height: 40px;
+    border-style: solid;
 }
 
 .header {
@@ -62,7 +63,7 @@ button {
 .content {
     display: flex;
     justify-content: center;
-    gap: 32px;
+    gap: 64px;
 }
 
 .information img {
@@ -76,4 +77,59 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 250px;
+    text-align: center;
+}
+
+.testimonial {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+.subtest p {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.subtest {
+    width: 30vw;
+}
+
+.citation {
+    text-align: right;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh 10vh;
+}
+
+.subsignup {
+    display: flex;
+    background-color:#3882F6;
+    padding: 1vh 3vw;
+    gap: 64px;
+    border-radius: 10px;
+}
+
+.signuptext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.subsignup button {
+    align-self: center;
+    border-color: #E5E7EB;
+    color: #E5E7EB
+}
+
+.footer {
+    margin-top: auto;
+    text-align: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 30px;
 }
