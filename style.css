@@ -11,8 +11,18 @@ a {
 }
 
 img {
-    width: 300px;
+    width: 450px;
     height: auto;
+}
+
+button {
+    border-radius: 10px;
+    background: #3882F6;
+    width: 64px;
+    height: auto;
+    padding: 7px;
+    width: 100px;
+    height: 40px;
 }
 
 .header {
@@ -30,4 +40,40 @@ img {
     display: flex;
     gap: 8px;
     font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    background-color:#1F2937;
+    padding: 32px;
+    align-items: center;
+    color: #E5E7EB;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.information img {
+    width: 250px;
+    height: auto;
+    border-radius: 20px;
+    border: 5px solid #3882F6;
+}
+
+.imgtext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
